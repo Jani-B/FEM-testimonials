@@ -30,6 +30,9 @@
   grid-column: 1fr;
   background-color: var(--moderate-violet);
   color: var(--white);
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 5%;
 }
 
 .card2 {
