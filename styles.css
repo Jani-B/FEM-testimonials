@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+/* Variables for colors*/
 :root {
   --moderate-violet: hsl(263, 55%, 52%);
   --very-dark-grayish-blue: hsl(217, 19%, 35%);
@@ -7,10 +10,41 @@
   --light-gray: hsl(0, 0%, 81%);
   --light-grayish-blue: hsl(210, 46%, 95%);
 }
+
+/* margin to 0 and font size to 13px*/
 * {
   margin: 0;
   font-size: 13px;
 }
+
+/*FONTS*/
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-semibold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Header and paragraph basic styling*/
+h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*CARDS*/
 
 .container {
   display: grid;
@@ -57,4 +91,34 @@
   grid-column: 1fr;
   background-color: var(--white);
   color: var(--very-dark-blackish-blue);
+}
+
+.profile-image {
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid hsl(263, 62%, 58%);
+}
+
+.float-item {
+  float: left;
+  padding: 0.4rem 0.8rem;
+}
+.verified {
+  opacity: 50%;
+}
+
+.text-container {
+  clear: left;
+  padding: 0.3rem 0;
+}
+
+.first-text {
+  padding: 0.5rem 0.8rem;
+  font-size: 1.5rem;
+}
+
+.review-paragraph {
+  opacity: 70%;
+  padding: 1rem 0.8rem;
+  line-height: 150%;
 }
